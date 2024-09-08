@@ -21,9 +21,9 @@ public class Main4 {
         int x1 = scanner.nextInt();
         int y = scanner.nextInt();
         int y1 = scanner.nextInt();
-        if ((x - x1) == (y - y1)) {
+        if (Math.abs(x - x1) == Math.abs(y - y1)) {
             System.out.println("Yes");
-        }else{
+        } else {
             System.out.println("No");
         }
 
