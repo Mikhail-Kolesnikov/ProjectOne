@@ -14,6 +14,7 @@ public class Main4 {
     //2.Вводим переменные с координатами фигур на доске(х,х1,у,у1)
     //3. Если коррдинат точки фигуры равна разности координат
     // точки втоорой фигуры-Yes, else No
+    // Ищем разность точек координат через math(abs)
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
